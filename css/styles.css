@@ -148,10 +148,6 @@ img {
     background-color: #404bbf;
 }
 
-.benefits-section {
-    
-}
-
 .list-title {
     font-size: 36px;
     line-height: 1.11;
@@ -203,19 +199,34 @@ img {
     background-color: #f4f4fd;
 }
 
-.team-list {}
+.team-title {
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 
 .team-item {
     background-color: #fff;
+    width: calc( (100% - 3 * 24px ) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
-.team-title {
+.names {
+    margin: 32px 16px;
+}
+
+.user-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-paragraph {
