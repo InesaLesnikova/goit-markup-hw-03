@@ -106,13 +106,9 @@ img {
     color: #404bbf;
 }
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .hero-section {
     background-color: #2e2f42;
+    padding: 120px 0;
 }
 
 .site-title {
@@ -126,6 +122,9 @@ img {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 48px;
+
+    padding-top: 68px;
+
 }
 
 .order-button {
@@ -141,6 +140,11 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    border-radius: 4px;
+    padding: 16px 32px;
+
+    margin-bottom: 68px;
 }
 
 .order-button:hover,
@@ -170,6 +174,10 @@ img {
     overflow: hidden;
 }
 
+.benefits-section {
+    padding: 120px 0;
+}
+
 .benefits-list {
     display: flex;
     gap: 24px;
@@ -197,6 +205,7 @@ img {
 
 .team-section {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -216,7 +225,7 @@ img {
 }
 
 .names {
-    margin: 32px 16px;
+    padding: 32px 16px;
 }
 
 .user-title {
@@ -238,21 +247,34 @@ img {
 }
 
 .portfolio-section {
-    
-}
-
-.portfolio-list {}
-
-.portfolio-item {
-    background-color: #fff;
+    padding: 120px 0;
 }
 
 .portfolio-title {
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    width: ( (100% - 3 * 24px) / 4);
+}
+
+.portfolio-div {
+    padding: 32px 16px;
+}
+
+.portfolio-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-paragraph {
